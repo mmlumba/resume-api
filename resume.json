@@ -1,0 +1,62 @@
+[
+    {
+       "type":"employment",
+       "role":"Front End Developer",
+       "company":"Prosphere Tek",
+       "responsibilities":[
+          "one",
+          "two",
+          "three"
+       ]
+    },
+    {
+       "type":"employment",
+       "role":"Sr. Application Developer Specialist",
+       "company":"NRECA",
+       "responsibilities":[
+          "one",
+          "two",
+          "three"
+       ]
+    },
+    {
+       "type":"employment",
+       "role":"Software Developer Assistant (Contractor)",
+       "company":"NRECA",
+       "responsibilities":[
+          "one",
+          "two",
+          "three"
+       ]
+    },
+    {
+       "type":"employment",
+       "role":"Program Support Clerk",
+       "company":"United States Department of Education",
+       "responsibilities":[
+          "one",
+          "two",
+          "three"
+       ]
+    },
+    {
+       "type":"education",
+       "credential":"Bachelors of Science in Information Technology",
+       "school":"Marymount University"
+    },
+    {
+       "type":"education",
+       "credential":"Part-Time Front End Development Course",
+       "school":"Bloc.io"
+    },
+    {
+       "type":"volunteer",
+       "role":"Front End Lead",
+       "organization":"Women Who Code",
+       "responsibilities":[
+          "one",
+          "two",
+          "three"
+       ]
+    }
+ ]

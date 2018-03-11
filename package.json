@@ -1,0 +1,34 @@
+{
+  "name": "resume-api",
+  "version": "1.0.0",
+  "description": "Marian's resume in API format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmlumba/resume-api.git"
+  },
+  "keywords": [
+    "react",
+    "ruby",
+    "ruby-on-rails",
+    "javascript",
+    "css",
+    "html",
+    "scss",
+    "bootstrap"
+  ],
+  "author": "Marian Lumba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmlumba/resume-api/issues"
+  },
+  "homepage": "https://github.com/mmlumba/resume-api#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "tap-nyan": "^1.1.0",
+    "tape": "^4.9.0"
+  }
+}
