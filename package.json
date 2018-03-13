@@ -1,6 +1,10 @@
 {
   "name": "resume-api",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.9.4",
+    "npm": "5.7.1"
+  },
   "description": "Marian's resume in API format",
   "main": "index.js",
   "scripts": {
@@ -29,6 +33,7 @@
   "homepage": "https://github.com/mmlumba/resume-api#readme",
   "dependencies": {
     "express": "^4.16.2",
+    "nodemon": "1.17.1",
     "npm": "^5.7.1",
     "tap-nyan": "^1.1.0",
     "tape": "^4.9.0"
