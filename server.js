@@ -2,6 +2,7 @@ const express = require('express');
 const server = express();
 const path = require('path');
 const fs = require('fs');
+const PORT = process.env.PORT || 3000
 
 server.use(express.static(path.join(__dirname, 'public')));
 server.get('/', (request, response) => {
@@ -14,4 +15,4 @@ server.get('/resume', (request, response) => {
     response.send(JSON.parse(file));
 })
 
-server.listen(3000, () => console.log("marian\'s resume"))
+server.listen(PORT, () => console.log("marian\'s resume"))
