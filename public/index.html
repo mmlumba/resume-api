@@ -6,16 +6,24 @@
     </head>
     <body>
         <div id="screen-only">
-            <h1>Marian Resume API</h1>
-            <p>Homepage coming soon! In the meantime please visit the API here:</p>
-            <p id="curl-url"></p>
+            <div id="intro">
+                <h1>Marian Resume API</h1>
+                <p>Visit the full JSON: <span id="curl-url"></span></p>
+            </div>
         </div>
         <div id="print-only">
-            <h1>Marian Lumba</h1>
-            <p>
-                <span id="email"></span> | <span id="phone"></span> | github.com/mmlumba
-            </p>
-        </div>
+                <h1>Marian Lumba</h1>
+                <p>
+                    <span id="email"></span> | <span id="phone"></span> | github.com/mmlumba
+                </p>
+            </div>
+        <h2>Employment</h2>
+        <div id="employment" class="group"></div>
+        <h2>Education</h2>
+        <div id="education" class="group"></div>
+        <h2>Volunteer Work</h2>
+        <div id="volunteer" class="group"></div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="index.js"></script>
     </body>
 </html>

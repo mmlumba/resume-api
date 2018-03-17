@@ -3,7 +3,7 @@
        "type":"employment",
        "role":"Front End Developer",
        "company":"Prosphere Tek",
-       "startDate": "2016-12-01T05:00:00.000Z",
+       "startDate": "2016-12-01",
        "endDate": "present",
        "responsibilities":[
           "Automate the implementation of Section 508 and U.S. Web Design standards across a suite of web applications using HTML, CSS, Ruby",
@@ -15,8 +15,8 @@
        "type":"employment",
        "role":"Sr. Application Developer Specialist",
        "company":"NRECA",
-       "startDate": "2014-06-02T04:00:00.000Z",
-       "endDate": "2016-11-22T05:00:00.000Z",
+       "startDate": "2014-06-02",
+       "endDate": "2016-11-22",
        "responsibilities":[
           "Created scripts for deployment processes using Shell, Powershell, Ruby",
           "Implemented acceptance tests for server configurations using Ruby",
@@ -27,8 +27,8 @@
        "type":"employment",
        "role":"Software Developer Assistant (Contractor)",
        "company":"NRECA",
-       "startDate": "2013-02-08T05:00:00.000Z",
-       "endDate": "2014-06-02T04:00:00.000Z",
+       "startDate": "2013-02-08",
+       "endDate": "2014-06-02",
        "responsibilities":[
           "Recreated the NRECA Employee Benefits website for demo purposes using Umbraco, HTML, CSS and JavaScript",
           "Configured and monitored Windows and Linux servers for application teams",
@@ -39,8 +39,8 @@
        "type":"employment",
        "role":"Program Support Clerk",
        "company":"United States Department of Education",
-       "startDate": "2012-05-21T04:00:00.000Z",
-       "endDate": "2012-08-24T04:00:00.000Z",
+       "startDate": "2012-05-21",
+       "endDate": "2012-08-24",
        "responsibilities":[
           "Redesigned the theme and content of the BFELoB public website using WordPress, PHP, and CSS",
           "Supported technical, web 2.0-focused workgroups by providing feedback on services"
@@ -50,21 +50,21 @@
        "type":"education",
        "credential":"Bachelors of Science in Information Technology",
        "school":"Marymount University",
-       "startDate": "2010-08-23T04:00:00.000Z",
-       "endDate": "2014-05-16T04:00:00.000Z"
+       "startDate": "2010-08-23",
+       "endDate": "2014-05-16"
     },
     {
        "type":"education",
        "credential":"Part-Time Front End Development Course",
        "school":"Bloc.io",
-       "startDate": "2015-06-01T04:00:00.000Z",
-       "endDate": "2015-12-01T04:00:00.000Z"
+       "startDate": "2015-06-01",
+       "endDate": "2015-12-01"
     },
     {
        "type":"volunteer",
        "role":"Front End Lead",
        "organization":"Women Who Code",
-       "startDate": "2015-12-01T04:00:00.000Z",
+       "startDate": "2015-12-01",
        "endDate": "present",
        "responsibilities":[
           "Assist women working on front end web development projects and exercises during front end lab nights",

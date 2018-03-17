@@ -1,6 +1,37 @@
-const email = document.getElementById("email");
-const phone = document.getElementById("phone");
-let curlUrlId = document.getElementById("curl-url");
-curlUrlId.innerHTML = window.location.href + "resume";
-email.textContent = "some@email.com"; // where env var goes later
-phone.textContent = "123-456-7899"; // where env var goes later
+$("#email").text("some@email.com"); // where env var goes later
+$("#phone").text("123-456-7899"); // where env var goes later
+$("#curl-url").text(window.location.href + "resume");
+
+const dateFormatter = (date) => date === "present" ? "present" : new Date(date).toLocaleDateString("en-US")
+
+const EmploymentTemplate = ({role, company, organization, startDate, endDate, responsibilities}) => `
+    <p>${role}</p>
+    <p>${company || organization}</p>
+    <p>${dateFormatter(startDate)} - ${dateFormatter(endDate)}</p>
+    <p>${responsibilities}</p>
+    <hr />
+`;
+
+const employmentInfo = $.get(`${window.location.href}resume`, function(responseText) {
+    $("#employment").html(responseText
+        .filter(({type}) => type === 'employment')
+        .map(EmploymentTemplate));
+});
+
+const EducationTemplate = ({credential, school, startDate, endDate}) => `
+    <p>${school} - <i>${credential}</i></p>
+    <p>${dateFormatter(startDate)} - ${dateFormatter(endDate)}</p>
+    <hr />
+`;
+
+const educationInfo = $.get(`${window.location.href}resume`, function(responseText) {
+    $("#education").html(responseText
+        .filter(({type}) => type === 'education')
+        .map(EducationTemplate));
+});
+
+const volunteerInfo = $.get(`${window.location.href}resume`, function(responseText) {
+    $("#volunteer").html(responseText
+        .filter(({type}) => type === 'volunteer')
+        .map(EmploymentTemplate));
+});
