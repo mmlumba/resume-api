@@ -2,12 +2,16 @@ body {
     background-color: #ADD8E6;
 }
 
-h1, h2, p {
+h1, h2, p, li {
     font-family: 'Poppins', Arial, sans-serif;
 }
 
 h2 {
     margin-left: 20px;
+}
+
+ul {
+    padding-bottom: 20px;
 }
 
 #intro {
@@ -16,6 +20,7 @@ h2 {
 
 .group {
     padding: 40px;
+    border-radius: 20px;
     margin: 0 20px;
     background-color: #fff;
 }
@@ -27,13 +32,23 @@ h2 {
 @media print {
     #print-only {
        display : block;
-
     }
     #screen-only {
         display: none;
+    }
+    h2 {
+        margin-left: 0;
+    }
+    .group {
+        margin: 0;
+        padding: 0;
+        line-height: 20px;
     }
 }
 
 #curl-url {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
 }
