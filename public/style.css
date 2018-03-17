@@ -6,8 +6,17 @@ h1, h2, p, li {
     font-family: 'Poppins', Arial, sans-serif;
 }
 
+h1.title {
+    margin-bottom: 0;
+}
+
 h2 {
     margin-left: 20px;
+}
+
+a {
+    color: maroon;
+    text-decoration: none;
 }
 
 ul {
@@ -19,7 +28,7 @@ ul {
 }
 
 .group {
-    padding: 40px;
+    padding: 20px 40px;
     border-radius: 20px;
     margin: 0 20px;
     background-color: #fff;
