@@ -1,6 +1,5 @@
 $("#email").text("some@email.com"); // where env var goes later
 $("#phone").text("123-456-7899"); // where env var goes later
-$("#curl-url").text(window.location.href + "resume");
 
 const dateFormatter = (date) => date === "present" ? "present" : new Date(date).toLocaleDateString("en-US")
 const createBulletList = (list) => list.map(listItem => `<li>${listItem}</li>`).join(",").replace(/\,(?!\s*?[\{\[\"\'\w])/g, "");
