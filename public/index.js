@@ -14,6 +14,12 @@ const EmploymentTemplate = ({role, company, organization, startDate, endDate, re
     <hr />
 `;
 
+const AwardTemplate = ({ organization, description, awardDate }) => `
+    <p>${organization}</p>
+    <p>${dateFormatter(awardDate)}</p>
+    <p>${description}</p>
+`
+
 const employmentInfo = $.get(`${window.location.href}resume`, function(responseText) {
     $("#employment").html(responseText
         .filter(({type}) => type === 'employment')
@@ -36,4 +42,10 @@ const volunteerInfo = $.get(`${window.location.href}resume`, function(responseTe
     $("#volunteer").html(responseText
         .filter(({type}) => type === 'volunteer')
         .map(EmploymentTemplate));
+});
+
+const awardInfo = $.get(`${window.location.href}resume`, function(responseText) {
+    $("#awards").html(responseText
+        .filter(({type}) => type === 'award')
+        .map(AwardTemplate));
 });
